@@ -1,0 +1,11 @@
+[package]
+name = "log4rs_issue"
+version = "0.1.0"
+authors = ["Joe Wilm <joe@jwilm.com>"]
+
+[dependencies]
+log = "*"
+
+[dependencies.log4rs]
+features = ["yaml"]
+version = "0.4"
