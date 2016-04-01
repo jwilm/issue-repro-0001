@@ -14,7 +14,7 @@ root:
 
 loggers:
   log4rs_issue:
-    level: trace
+    level: debug
   log4rs_issue::nested:
     level: trace
 ";
